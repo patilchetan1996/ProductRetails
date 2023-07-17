@@ -1,0 +1,97 @@
+error :: 2023-07-17T07:33:09.765Z :: uncaughtException: Cannot find module 'cors'
+Require stack:
+- /Users/vilisouser7/Documents/ProjectsOfChetan/General/Chetan/SufalamTask/sufalamPractical/sufalam/sufalamserver/server.js
+Error: Cannot find module 'cors'
+Require stack:
+- /Users/vilisouser7/Documents/ProjectsOfChetan/General/Chetan/SufalamTask/sufalamPractical/sufalam/sufalamserver/server.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:108:18)
+    at Object.<anonymous> (/Users/vilisouser7/Documents/ProjectsOfChetan/General/Chetan/SufalamTask/sufalamPractical/sufalam/sufalamserver/server.js:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+error :: 2023-07-17T07:33:37.000Z :: uncaughtException: Cannot find module 'cors'
+Require stack:
+- /Users/vilisouser7/Documents/ProjectsOfChetan/General/Chetan/SufalamTask/sufalamPractical/sufalam/sufalamserver/server.js
+Error: Cannot find module 'cors'
+Require stack:
+- /Users/vilisouser7/Documents/ProjectsOfChetan/General/Chetan/SufalamTask/sufalamPractical/sufalam/sufalamserver/server.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:108:18)
+    at Object.<anonymous> (/Users/vilisouser7/Documents/ProjectsOfChetan/General/Chetan/SufalamTask/sufalamPractical/sufalam/sufalamserver/server.js:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+error :: 2023-07-17T07:33:46.126Z :: uncaughtException: Cannot find module 'cors'
+Require stack:
+- /Users/vilisouser7/Documents/ProjectsOfChetan/General/Chetan/SufalamTask/sufalamPractical/sufalam/sufalamserver/server.js
+Error: Cannot find module 'cors'
+Require stack:
+- /Users/vilisouser7/Documents/ProjectsOfChetan/General/Chetan/SufalamTask/sufalamPractical/sufalam/sufalamserver/server.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:108:18)
+    at Object.<anonymous> (/Users/vilisouser7/Documents/ProjectsOfChetan/General/Chetan/SufalamTask/sufalamPractical/sufalam/sufalamserver/server.js:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+error :: 2023-07-17T08:21:13.599Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:185:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - SQL Error while getting Product Table Details., SQLErrCode: [ER_NO_DB_ERROR], SQLErrNo: [1046], , SQLErrState: [3D000], SQLErrMsg: [No database selected], , SQLQuery: [select ProductCode, ProductName, PricePerUnitINR, Image, DATE_FORMAT(LastModifiedTime, '%Y-%m-%d %H:%i:%S') as ProdLastModifiedTime
+                        from sProducts
+                        
+                         order by ProdLastModifiedTime DESC].
+info :: 2023-07-17T08:21:56.659Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:36:07.235Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:40:12.411Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:40:21.644Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:40:54.333Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:42:57.880Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:43:11.828Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:43:20.921Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:43:28.179Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:43:34.117Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:43:44.083Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:44:07.565Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:44:12.498Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:44:24.831Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:44:26.828Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:44:28.705Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:44:30.386Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:44:32.208Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:44:34.051Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:44:42.984Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:190:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:45:40.992Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:45:45.751Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:45:47.941Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:45:52.279Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:48:32.834Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbUploadFWFile:62:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while uploading firmware binary file.
+info :: 2023-07-17T08:48:32.850Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbInsertOrUpdateProductInfo:130:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Product Info Saved Successfully.
+info :: 2023-07-17T08:48:34.765Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:48:34.952Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:49:04.870Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbUploadFWFile:62:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while uploading firmware binary file.
+info :: 2023-07-17T08:49:04.896Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbInsertOrUpdateProductInfo:130:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Product Info Saved Successfully.
+info :: 2023-07-17T08:49:06.773Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:49:07.937Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:49:13.594Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:49:18.096Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:49:19.003Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:49:34.697Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:49:49.533Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:49:58.991Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:50:04.738Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:50:09.355Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:50:11.805Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:50:15.104Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:50:28.538Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:50:29.550Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.
+info :: 2023-07-17T08:50:43.053Z :: NA_API_ID :: NA_API_NAME :: clientDBOperations.js:dbGetLatestProductInfo:192:31 :: API_STDTTM - NA :: CURR_DTTM - NA :: EXECTM_FROM_API_START_MILLIS - NA :: - Success while getting Product Table Details.

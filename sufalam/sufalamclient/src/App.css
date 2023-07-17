@@ -1,0 +1,379 @@
+.iconButton{
+  padding: "1rem";
+  background-color: var(--hoverLinkColor);
+  color: "white";
+}
+
+.iconButton:hover {
+  background-color: #FFA500;
+  color: "white";
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.textDecoNone {
+  text-decoration: none;
+}
+
+.close{
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  background-color: transparent;
+  border: 0;
+  /* -webkit-appearance: none */
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  --primaryColor: #a8cca8;
+  --secondaryColor: orange;
+  --hoverLinkColor: rgb(86, 169, 202);
+  --errorColor: red;
+  --signalLevel1Color: red;
+  --signalLevel2Color: rgb(255, 221, 0);
+  --signalLevel3Color: green;
+}
+
+/* Common CSS applicable to all pages: Start */
+
+.LoadingPage {
+  border: 1px solid var(--primaryColor);
+  margin: 0.5rem;
+}
+
+.LoadingPageContent{
+  margin-top: 1.5rem;
+  height: 88vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.outerRoundedDivWithShadow{
+  box-shadow: 1px 1px 5px 2px var(--primaryColor);
+  border-radius: 5px;
+}
+
+.pageMsgFont{
+  color: var(--secondaryColor);
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+/* Common CSS applicable to all pages: End */
+
+
+.BothComponentsFullScreenCSS {
+  border-top: 0.5px solid var(--primaryColor);
+}
+
+.desktopView {
+  display: flex;
+}
+
+.mobileView {
+  display: none;
+}
+
+.desktopDrawerFullScreen {
+  display: block;
+}
+
+.desktopDrawerLeftSideViewPanel {
+  display: block;
+}
+
+.desktopDrawerRigthSideViewPanel {
+  display: flex;
+  /* width: 100%; */
+}
+
+.desktopDrawerRigthSideViewFirstPanel {
+  display: flex;
+  align-items: center;
+  /* height: 90vh; */
+  margin-right: 1rem;
+}
+
+.desktopleftRightDrawerIcon {
+  color: white;
+  background-color: var(--primaryColor);
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+  border-radius:50%;
+}
+
+.desktopleftRightDrawerIcon:hover {
+  color: white;
+  background-color: var(--secondaryColor);
+  /* padding: 0.2rem 0.5rem; */
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+  border-radius: 50%;
+}
+
+.mobileViewDeviceTable {
+  display: none;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+}    */
+
+@media (max-width: 550px) {
+
+  .desktopView {
+    display: none;
+  }    
+
+  .mobileView {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .BothComponentsFullScreenCSS {
+    border: 0.5px solid var(--primaryColor);
+    display: flex;
+  } 
+    
+  .DrawerFullScreen {
+    display: flex;
+  }
+
+  .MobileFullScreen {
+    display: flex;
+  }
+
+  .DrawerLeftSideViewPanel {
+    display: block;
+  }
+
+  .DrawerRigthSideViewPanel {
+    display: none;
+  }
+
+  .desktopDrawerRigthSideViewFirstPanel {
+    display: none;
+    align-items: center;
+    height: 90vh;
+    margin-right: 1rem;
+  }
+
+  .desktopleftRightDrawerIcon {
+    color: white;
+    background-color: var(--primaryColor);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+  }
+
+  .desktopleftRightDrawerIcon:hover {
+    color: white;
+    background-color: var(--secondaryColor);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+  }
+
+  .mobileViewDeviceTable{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobileleftRightDrawerIcon {
+    color: white;
+    background-color: var(--primaryColor);
+    padding: 0.2rem 0.5rem 0.1rem 0.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+    margin-right: 0.2rem;
+  }
+
+  .mobileleftRightDrawerIcon:hover {
+    color: white;
+    background-color: orange;
+    padding: 0.2rem 0.5rem 0.1rem 0.5rem;
+    border-radius: 0.2rem;
+  }
+}
+
+/* ------------------          CSS for Root Node         -------------------------- */
+.parameterOuterDiv{
+  box-shadow: 1px 1px 5px 2px var(--primaryColor);
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.ParamsValue{
+  color: green;
+  /* color: var(--primaryColor); TODO: */
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+/* ------------------   CSS for Alert Log Table    -------------------------- */
+.AlertLogTableHeader {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* / ------------------   CSS for Add/Remove user form to add Scrollbar   -------------------------- / */
+
+@media (max-width: 550px) {
+  .mvAddScroll {
+    height: 95vh;
+    overflow-y: scroll;
+  }
+
+}
+
+/* / ------------------   CSS for Chart Customized Date Refresh Button  -------------------------- / */
+
+/* .datetimeRefreshButton {
+  color: white;
+  background-color: var(--primaryColor);
+  margin-left: 2rem;
+  font-size: 1rem; 
+  border-radius: 5px;
+}
+
+.datetimeRefreshButton:hover {
+  background-color: var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+} */
+
+.datetimeRefreshButton {
+  color: white;
+  background-color: var(--primaryColor);
+  margin-left: 2rem;
+  font-size: 1rem; 
+  border-radius: 5px;
+}
+
+.datetimeRefreshButton:hover {
+  background-color: var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+}
+
+.dvDatetimePicker {
+  display: flex;
+  justify-content: center;
+}
+
+.dvStartDatetime {
+  display: block;
+  color: gray;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.DVDeviceNameOfSD{
+  font-size: 2rem;
+  color:#666666;
+  font-weight: 500;
+}
+
+/* ========== Error Message Label for Validation ================== */
+.validationErrorLabel{
+  color : var(--errorColor);
+  font-size: 0.8rem;
+  width: 100%;
+  text-align: left;
+}
+
+.validationRequiredStarMark{
+  color : var(--errorColor);
+}
+
+/* ========== Error Message Label for Validation ================== */
+
+
+/* .mvStartDatetime {
+  display: none;
+} */
+
+.boxForRangesForSensors{
+  margin-top: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  box-shadow:  0 0.3rem 0.7rem var(--primaryColor);
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 550px) {
+  .mvAddScroll {
+    height: 95vh;
+    overflow-y: scroll;
+  }
+
+  .dvDatetimePicker {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+  }  
+
+  .dvStartDatetime {
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+
+  .datetimeRefreshButton {
+    color: white;
+    background-color: var(--primaryColor);
+    margin-left: 2rem;
+    font-size: 1rem; 
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 20%;
+  }
+
+  .DVDeviceNameOfSD{
+    font-size: 2rem;
+    color:#666666;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+}    
